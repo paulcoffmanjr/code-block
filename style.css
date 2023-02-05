@@ -8,6 +8,11 @@
           box-sizing: border-box;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -20,14 +25,13 @@
   padding: 0.5rem 0.5rem;
   width: 100%;
   max-width: 1200px;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .code-block {
   padding: 1.125rem 0;
   width: 100%;
   background-color: #ebebeb;
-  font-size: 16px;
+  font-size: 1rem;
   border: none !important;
   border-radius: 5px;
   overflow-y: hidden;
