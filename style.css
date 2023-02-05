@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 4rem auto;
+  padding: 0.5rem 0.5rem;
+  width: 100%;
+  max-width: 1200px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.code-block {
+  position: relative;
+  padding: 2rem 0 1.125rem 0;
+  width: 100%;
+  background-color: #ebebeb;
+  font-size: 16px;
+  border: none !important;
+  border-radius: 5px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.code-block pre {
+  padding: 0;
+  margin: 0;
+}
+
+.code-block pre code {
+  display: inline-block;
+  padding: 0 1rem;
+}
+
+.copy-btn {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  display: inline-block;
+  padding: 0.1rem 0.2rem;
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.copy-btn:hover {
+  background-color: #5a5959;
+  color: white;
+}
+
+.copy-btn:active {
+  background-color: white;
+  color: #5a5959;
+}
+
+.spacing-mt-1 {
+  width: 0;
+  margin-top: 1rem;
+}
