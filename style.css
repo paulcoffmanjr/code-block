@@ -81,7 +81,41 @@ body {
   color: #5a5959;
 }
 
-.spacing-mt-1 {
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+}
+
+.grid-gap-1 {
+  grid-gap: 1rem;
+}
+
+.grid-col-2-3 {
+  -ms-grid-columns: 2fr 3fr;
+      grid-template-columns: 2fr 3fr;
+}
+
+.grid-col-1-4 {
+  -ms-grid-columns: 1fr 4fr;
+      grid-template-columns: 1fr 4fr;
+}
+
+.grid-col-5-5 {
+  -ms-grid-columns: 5fr 5fr;
+      grid-template-columns: 5fr 5fr;
+}
+
+.spacer-mt-1 {
   width: 0;
   margin-top: 1rem;
+}
+
+.spacer-mt-2 {
+  width: 0;
+  margin-top: 2rem;
+}
+
+.spacer-mt-3 {
+  width: 0;
+  margin-top: 3rem;
 }

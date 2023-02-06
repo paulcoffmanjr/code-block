@@ -68,11 +68,41 @@ body {
   }
 }
 
-.spacing {
+.grid {
+  &-container {
+    display: grid;
+  }
+  &-gap-1 {
+    grid-gap: 1rem;
+  }
+  &-col-2-3 {
+    grid-template-columns: 2fr 3fr;
+  }
+  &-col-1-4 {
+    grid-template-columns: 1fr 4fr;
+  }
+  &-col-5-5 {
+    grid-template-columns: 5fr 5fr;
+  }
+}
+
+.spacer {
   &-mt {
     &-1 {
       width: 0;
       margin-top: 1rem;
+    }
+  }
+  &-mt {
+    &-2 {
+      width: 0;
+      margin-top: 2rem;
+    }
+  }
+  &-mt {
+    &-3 {
+      width: 0;
+      margin-top: 3rem;
     }
   }
 }
