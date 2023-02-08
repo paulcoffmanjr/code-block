@@ -23,10 +23,10 @@ body {
 }
 
 .code-block {
-  padding: 1.125rem 0;
+  padding: 1.0625rem 0;
   width: 100%;
   background-color: #ebebeb;
-  font-size: 1rem;
+  font-size: 16px;
   border: none !important;
   border-radius: 5px;
   overflow-y: hidden;
@@ -35,9 +35,10 @@ body {
   pre {
     padding: 0;
     margin: 0;
+    white-space: pre;
     code {
       display: inline-block;
-      padding: 0 1rem;
+      padding: 0 1.0625rem;
     }
   }
   &-w-btn {
